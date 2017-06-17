@@ -48,17 +48,13 @@ table {
 
 /* The actual website starts here */
 
+title {
+	width: 60%;
+}
 
 html, body {
   font-family: 'Work Sans', sans-serif;
   height: 100vh;
-}
-
-section {
-	display: flex;
-	flex-direction: row;
-	min-height: 100%;
-	justify-content: center;
 }
 
 strong {
@@ -78,14 +74,14 @@ h2 {
 	font-size: 2rem;
 	font-weight: 800;
 	text-shadow: 3px 3px #fff435;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	color: #ffffff;
 	width: 60%;
 }
 
 p {
 	font-size: 1.2rem;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
 	line-height: 105%;
 	color: #ffffff;
 	width: 60%;
@@ -94,7 +90,7 @@ p {
 a {
 	text-decoration: none;
 	color: #ffffff;
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 a:hover {
@@ -102,19 +98,6 @@ a:hover {
 	text-shadow: 4px 4px #ffffff;
 }
 
-
-li {
-	font-weight: bold;
-	margin-bottom: 20%;
-}
-
-.portfolio-links {
-	margin-bottom: 10%;
-}
-
-.portfolio-p {
-	margin-bottom: 20%;
-}
 
 .title {
   display: flex;
@@ -126,24 +109,10 @@ li {
   flex: 1;
 }
 
-.writing {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-	background: #E80CBD;
-	padding: 5%;
-	flex: 1;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-	background: #870CE8;
-	padding: 5%;
-	flex: 1;
+li {
+	font-weight: bold;
+	margin-bottom: 1rem;
+	list-style-type: none;
 }
 
 /* media queries */
