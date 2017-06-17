@@ -55,10 +55,23 @@ title {
 html, body {
   font-family: 'Work Sans', sans-serif;
   height: 100vh;
+  background-color: #E80CBD;
 }
 
 strong {
   font-weight: 800;
+}
+
+.button {
+	margin: 3rem;
+}
+
+img {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 5px 5px 5px #fff435;
 }
 
 h1 {
@@ -105,9 +118,9 @@ a:hover {
   justify-content: flex-start;
   align-items: center;
   background: #E80CBD;
-  padding: 5%;
   flex: 1;
 }
+
 
 li {
 	font-weight: bold;
