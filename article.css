@@ -92,6 +92,14 @@ h2 {
 	width: 60%;
 }
 
+h3 {
+	font-size: 1.5rem;
+	font-weight: 800;
+	margin-bottom: 1%;
+	color: #ffffff;
+	width: 60%;
+}
+
 p {
 	font-size: 1.2rem;
 	margin-bottom: 2%;
