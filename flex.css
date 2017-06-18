@@ -50,7 +50,7 @@ table {
 
 
 html, body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 	height: 100vh;
 }
 
@@ -67,16 +67,16 @@ strong {
 
 h1 {
 	font-size: 3.5rem;
-	font-weight: 800;
-	text-shadow: 4px 4px #fff435;
-  margin-bottom: 6%;
+	font-weight: bold;
+	text-shadow: 3px 3px #fff435;
+  	margin-bottom: 20%;
 	color: #ffffff;
 }
 
 h2 {
 	font-size: 3.5rem;
-	font-weight: 800;
-	text-shadow: 4px 4px #fff435;
+	font-weight: 700;
+	text-shadow: 3px 3px #fff435;
 	margin-bottom: 20%;
 	color: #ffffff;
 }
@@ -92,15 +92,24 @@ p {
 	font-size: 1.4rem;
 }
 
+.spacefarm {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.spacefarm:hover {
+	text-shadow: 1px 1px #ffffff;
+}
+
 a {
 	text-decoration: none;
 	color: #ffffff;
-  font-size: 2rem;
+  	font-size: 2rem;
 }
 
 a:hover {
 	color: #fff435;
-	text-shadow: 4px 4px #ffffff;
+	text-shadow: 3px 3px #ffffff;
 }
 
 .writing p {
@@ -180,27 +189,32 @@ li {
 
 
 .portfolio-links {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .portfolio-p {
-	margin-bottom: 20%;
+	margin-bottom: 15%;
 }
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1455px){
 
 h1 {
 		margin-bottom: 30%;
 		text-align: center;
 }
 
+h2 {
+	margin-bottom: 32%;
+	font-size: 3.8rem;
+}
+
 p {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 }
 
 .writing p {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 }
 
 a {

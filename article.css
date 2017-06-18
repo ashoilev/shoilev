@@ -53,7 +53,7 @@ title {
 }
 
 html, body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   height: 100vh;
   background-color: #E80CBD;
 }
@@ -65,7 +65,6 @@ strong {
 .button {
 	margin: 1rem 0rem 1rem 0rem;
 	width: 60%;
-	text-decoration: underline;
 }
 
 img {
@@ -76,8 +75,8 @@ img {
 
 h1 {
 	font-size: 3.5rem;
-	font-weight: 800;
-	text-shadow: 4px 4px #fff435;
+	font-weight: 700;
+	text-shadow: 3px 3px #fff435;
   	margin-bottom: 3%;
 	color: #ffffff;
 	width: 60%;
@@ -85,8 +84,8 @@ h1 {
 
 h2 {
 	font-size: 2rem;
-	font-weight: 800;
-	text-shadow: 3px 3px #fff435;
+	font-weight: 700;
+	text-shadow: 2px 2px #fff435;
 	margin-bottom: 2%;
 	color: #ffffff;
 	width: 60%;
@@ -94,7 +93,7 @@ h2 {
 
 h3 {
 	font-size: 1.5rem;
-	font-weight: 800;
+	font-weight: 700;
 	margin-bottom: 1%;
 	color: #ffffff;
 	width: 60%;
@@ -116,7 +115,7 @@ a {
 
 a:hover {
 	color: #fff435;
-	text-shadow: 4px 4px #ffffff;
+	text-shadow: 2px 2px #ffffff;
 }
 
 .title {
@@ -151,7 +150,6 @@ p {
 .button {
 	margin: 1rem 0rem 1rem 0rem;
 	width: 85%;
-	text-decoration: underline;
 }
 
 h1 {
@@ -166,4 +164,3 @@ h2 {
 	width: 85%;
 
 }
-
