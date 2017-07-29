@@ -84,7 +84,7 @@ h2 {
 p {
 	font-size: 1.2rem;
 	margin-bottom: 6%;
-	line-height: 105%;
+	line-height: 140%;
 	color: #ffffff;
 }
 
@@ -98,6 +98,15 @@ p {
 }
 
 .spacefarm:hover {
+	text-shadow: 1px 1px #ffffff;
+}
+
+.see-more a {
+	font-size: 1rem;
+	margin-
+}
+
+.see-more a:hover {
 	text-shadow: 1px 1px #ffffff;
 }
 
@@ -126,7 +135,7 @@ li {
 }
 
 .portfolio-p {
-	margin-bottom: 20%;
+	margin-bottom: 15%;
 }
 
 .title {
